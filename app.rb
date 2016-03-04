@@ -1,16 +1,21 @@
 require_relative 'config/environment'
 
-class App < Sinatra: :Base
+class App < Sinatra::Base
     
     get '/' do
-        erb: index
-end
+        erb :index
+    end
 
-post '/' do
+    post '/' do
     @user ={
-      name: "#{params["fname"]} #{params["lname"]}"  
+    name: "#{params["fname"]} #{params["lname"]}",
+    picture_url: "#{params["img"]}",
+    birthday: "#{params["bday"]}",
+    email: "#{params["email"]}"
     }
-erb: dashboard
-end
+    erb :dashboard
+
+    end
+
 
 end
