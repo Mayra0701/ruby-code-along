@@ -58,11 +58,11 @@
 }
 
 body {
-	background: #1f253d;
+	background-image: url(https://media.giphy.com/media/pkVHZKcnzzkmA/giphy.gif);
 }
 
 ul {
-	list-style-type: none;
+	list-style-type: circle;
 	margin: 0;
 	padding-left: 0;
 }
@@ -84,11 +84,11 @@ a {
 	font-size: 15px;
 }
 	a:hover {
-		text-decoration: blink;
+		text-decoration: line-through;
 	}
 
 h1, h2, p, a, span{
-	color: #fff;
+	color: #99ff66;
 }
 	.scnd-font-color {
 		color: #9099b7;
@@ -104,7 +104,7 @@ h1, h2, p, a, span{
 		margin-bottom: 20px;
 		padding-left: 45px;
 		background: #50597b;
-		color: #fff;
+		color: #ff99cc;
 		border: solid 1px #1f253d;
 		border-radius: 5px;		
 	}
@@ -125,7 +125,7 @@ h1, h2, p, a, span{
 	   		border: 1px solid #11a8ab;
 	   	}
 	.input-icon {
-		font-size: 22px;
+		font-size: 17px;
 		position: absolute;
 		left: 31px;
 		top: 10px;
@@ -235,7 +235,7 @@ h1, h2, p, a, span{
 /** MAIN CONTAINER **/
 
 .main-container {
-	font-family: 'Ubuntu', sans-serif;
+	
 	width: 950px;
 	height: 1725px;
 	margin: 6em auto;
@@ -273,7 +273,7 @@ h1, h2, p, a, span{
 					line-height: 22px;
 					padding: 0 6px;
 					font-weight: 700;
-					background: #e64c65;
+					background: #66ffcc;
 					border-radius: 100%;
 					top: 15px;
 					right: 2px;
@@ -505,7 +505,7 @@ h1, h2, p, a, span{
 				  height: 100%;
 				  position: relative;
 				  color: #fff;
-				  font-size: 80%;
+				  font-size: 60%;
 				}
 				.grafico span {
 				  display: block;
@@ -685,11 +685,11 @@ h1, h2, p, a, span{
 						border-bottom-left-radius: 5px;
 					}
 						.left-container .social .facebook .number {
-							background: #1a4e95;
+							background:#ff9933 ;
 							border-bottom-left-radius: 5px;
 						}
 					.left-container .social .twitter {
-						background: #4fc4f6;						
+						background: #ffff66;						
 					}
 						.left-container .social .twitter .icon {
 							font-size: 18px;
@@ -864,7 +864,7 @@ h1, h2, p, a, span{
 						padding: 15px 30px 0;
 					}
 					.tweet-link {
-						color: #4fc4f6;
+						color: #33ccff;
 					}
 			.middle-container .social {
 				height: 205px;
